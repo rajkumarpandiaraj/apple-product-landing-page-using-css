@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    color: rgb(43, 42, 42);
+    font-size: 14px;
+    line-height: 1.4;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 2.2rem;
+    padding-top: 0;
+}
+.nav-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    /* background-color: red; */
+    color: rgb(77, 76, 76);
+    /* padding-top: 3rem; */
+}
+.nav-list-menu, .nav-list-left{
+    display: flex;
+    list-style-type: none;
+    /* background-color: blue; */
+}
+.nav-list-menu{
+    margin-left: -1rem;
+    align-items: flex-end;
+}
+.nav-item{
+    margin: 0 1.5rem;
+}
+.nav-list-left{
+    padding: 0;
+}
+.nav-item-left{
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(77, 76, 76);
+}
+.brand{
+    color: rgb(68, 68, 226);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.active-menu{
+    color: #fff;
+    height: 80px;
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(68, 68, 226);
+    padding: 0 1.3rem;
+    padding-bottom: 0.3rem;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-self: flex-end;
+}
+.showcase{
+    display: flex;
+    padding-top: 2rem;
+}
+.showcase-right{
+    flex: 0.4 ;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+}
+.title{
+    margin-top: 1rem ;
+    line-height: 1;
+}
+.title-text{
+    font-size: 4rem;
+    color: rgb(32, 32, 32);
+}
+.description{
+    margin: 3rem 0;
+    margin-right: 3rem;
+    color: rgb(77, 76, 76);
+}
+.color{
+    color: rgb(77, 76, 76);
+    align-items: center;
+    display: flex;
+    margin-bottom: 3rem;
+}
+.color-div{
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    margin: 0 0.5rem;
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+.color-div:hover{
+    cursor: pointer;
+}
+.active-color {
+    background-color: rgb(241, 237, 237);
+    box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 1.5rem;
+}
+.color-red{
+    background-color: rgb(190, 35, 35);
+}
+
+.color-blue{
+    background-color: rgb(68, 68, 226);
+}
+
+.btn-grp{
+    display: flex;
+    margin-top: 1rem;
+}
+.btn{
+    outline: none;
+    border: none;
+    padding: 0.7rem 2rem;
+    margin: 0 0.5rem;
+    background-color: rgb(68, 68, 226);
+    color: #fff;
+    border-radius: 10px;
+}
+.price{
+    background-color: transparent;
+    color:rgb(68, 68, 226);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.btn:hover{
+    cursor: pointer;
+}
+.showcase-left{
+    flex: 0.6;
+    /* background-color: red; */
+}
+.showcase-left-flex{
+    display: flex;
+}
+.product-box{
+    flex: 0.7;
+    /* background-color: crimson; */
+}
+.product-box img{
+    width: 100%;
+    margin-top: -3rem;
+}
+.specs-box{
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 5rem;
+    /* background-color: chartreuse; */
+}
+.product-specs{
+    list-style: none;
+    line-height: 2;
+    padding-left: 0.4rem;
+}
+.product-specs li::before{
+    content: '\2022';
+    color: rgb(68, 68, 226);
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5rem;
+}
+.btn-spec{
+    margin-top: 8rem;
+    width: 60%;
+}
